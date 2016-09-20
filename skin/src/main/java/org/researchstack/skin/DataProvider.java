@@ -78,7 +78,7 @@ public abstract class DataProvider
      * returning true if signUp was successful
      */
     //public abstract Observable<DataResponse> signUp(Context context, String email, String username, String password);
-    public abstract Observable<DataResponse> signUp(Context context);
+    public abstract Observable<DataResponse> signUp(Context context, String username, String password);
 
     /**
      * Called in {@link SignUpStepLayout} to sign the user in to the backend service

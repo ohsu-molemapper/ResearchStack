@@ -117,7 +117,7 @@ public class SignUpStepLayout extends RelativeLayout implements StepLayout
                     })
                     .withEndAction(() -> DataProvider.getInstance()
                             //.signUp(getContext(), email, null, password)
-                            .signUp(getContext())
+                            .signUp(getContext(), email, password)
                             .compose(ObservableUtils.applyDefault())
                             .subscribe(dataResponse -> {
                                 if(dataResponse.isSuccess())
