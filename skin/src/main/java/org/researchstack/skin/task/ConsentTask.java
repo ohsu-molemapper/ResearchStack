@@ -44,7 +44,6 @@ public class ConsentTask extends OrderedTask
     public static final String ID_SHARING                       = "ID_SHARING";
     public static final String ID_CONSENT_DOC                   = "consent_review_doc";
     public static final String ID_FORM                          = "ID_FORM";
-    //public static final String ID_FORM_NAME                     = "ID_FORM_NAME";
     public static final String ID_FORM_FIRSTNAME                = "ID_FORM_FIRSTNAME";
     public static final String ID_FORM_LASTNAME                 = "ID_FORM_LASTNAME";
     public static final String ID_FORM_DOB                      = "ID_FORM_DOB";
